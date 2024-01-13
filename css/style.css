@@ -1,0 +1,265 @@
+@font-face {
+    font-family: merienda;
+    src: url(../assets/MeriendaOne-Regular.ttf);
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.primarybutton {
+    background-color: #0C1C6A;
+    color: white;
+    padding: 5px 30px;
+}
+
+.secondarybutton {
+    color: #0C1C6A;
+    background-color: white;
+    padding: 5px 30px;
+    margin-left: 10px;
+}
+
+.toppart {
+    background-image: url(../images/NolimitsNYC.png);
+}
+
+.active {
+    border-bottom: 5px solid #0C1C6A;
+}
+
+.navbar-brand {
+    mix-blend-mode: multiply;
+}
+
+.banner-title,
+.roman {
+    font-family: merienda;
+    font-size: 36px;
+    text-shadow: 2px 2px rgb(120, 120, 120);
+}
+
+.form {
+    background-color: #0C1C6A;
+    border-radius: 15px;
+    opacity: .8;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+input[type=text] {
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.mID {
+    margin-right: 5px;
+}
+
+.policy {
+    line-height: 10px;
+}
+
+.gap {
+    padding: 100px 0;
+}
+
+.title {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.title h2 {
+    font-weight: bold;
+    color: #0C1C6A;
+}
+
+.title p {
+    /* font-size: small; */
+    color: #828282;
+}
+
+.serviceTitle {
+    background: black;
+    opacity: .7;
+    color: white;
+    padding: 3px;
+
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content .content-overlay {
+
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+    opacity: 1;
+}
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details h3 {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
+
+.fadeIn-top {
+    top: 20%;
+}
+
+.fadeIn-left {
+    left: 20%;
+}
+
+.fadeIn-right {
+    left: 80%;
+}
+
+.hide {
+    display: block;
+    width: 100%;
+    margin-top: -27px;
+    border-radius: 0 0 10px 10px;
+}
+
+.myDIV:hover + .hide {
+    display: none;
+}
+
+.content-image {
+    border-radius: 10px;
+}
+
+.blue {
+    background: #0C1C6A;
+    color: white
+}
+
+.btn {
+    padding: 5px 45px;
+}
+
+.btngap {
+    margin: 10px 0;
+}
+
+.btn-light {
+    color: #0C1C6A;
+}
+
+.btn-primary {
+    background-color: #0C1C6A;
+    border: none;
+}
+
+.bgOne {
+    background-image: url("../images/nolimitsnyc\ home\ care.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgTwo {
+    background-image: url("../images/why-its-necessary-nolimitsnyc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgThree {
+    background-image: url("../images/want\ to\ cantact\ nolimitsnyc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgTrust {
+    background-image: url("../images/nycnolimits-care.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgJoin {
+    background-image: url("../images/nycnolimits-trust.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    ;
+}
+
+.text-blue {
+    color: #0C1C6A;
+}
+
+.copyright {
+    padding: 10px 0;
+}
+
+@media (Max-width: 576px) {
+    .btn {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 20px
+    }
+
+    .copyright {
+        padding: 10px;
+    }
+}
