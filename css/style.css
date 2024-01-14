@@ -3,6 +3,10 @@
     src: url(../assets/MeriendaOne-Regular.ttf);
 }
 
+body {
+    overflow-x: hidden; 
+  }
+
 .btn {
     font-weight: bold;
 }
