@@ -253,6 +253,32 @@ li {
 .copyright {
     padding: 10px 0;
 }
+.top {
+    --offset: 0px; 
+    background: #0C1C6A;
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    place-self: end;
+    margin-top: calc(10vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  a:hover{
+    text-decoration: none;
+    color:#b9b9b9
+  }
+  
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
 
 @media (Max-width: 576px) {
     .btn {
